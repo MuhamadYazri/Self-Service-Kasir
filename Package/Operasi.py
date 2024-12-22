@@ -1,4 +1,4 @@
-import time, sys, os, numpy, csv
+import time, sys, os, csv
 from . import Database, View
 from tabulate import tabulate
 import pandas as pd
