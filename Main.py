@@ -15,14 +15,14 @@ def main():
             Package.Clear_Screen()
             Subtotal = Package.Menambahkan_Pesanan(Menu_Kategori, Subtotal)
 
-            while input("Apakah Ada Pesanan Lain? (Y/N): ").upper() == "Y":
+            while input("Apakah Anda Memesan Lagi? (Y/N): ").upper() == "Y":
                 Subtotal = Package.Menambahkan_Pesanan(Menu_Kategori, Subtotal)      
             else:
                 pass
 
         elif Menu_Kategori == "3":
             if not List_Pesanan["Item"]:
-                print("\nTidak Ada Pesanan")
+                print("\nTidak Ada Pesan")
                 time.sleep(2)
             else:
                 List_Pesanan, Subtotal = Package.Hapus_Pesanan(List_Pesanan, Subtotal)
