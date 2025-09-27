@@ -15,7 +15,7 @@ def main():
             Package.Clear_Screen()
             Subtotal = Package.Menambahkan_Pesanan(Menu_Kategori, Subtotal)
 
-            while input("Apakah Anda Memesan Lagi? (Y/N): ").upper() == "Y":
+            while input("Apakah Anda sdfdsfdsf Lagi? (Y/N): ").upper() == "Y":
                 Subtotal = Package.Menambahkan_Pesanan(Menu_Kategori, Subtotal)      
             else:
                 pass
